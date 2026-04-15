@@ -83,3 +83,10 @@ The segmentation results show a strong concentration of revenue in the top segme
 ## 🚀 Key Takeaway
 
 This project demonstrates how simple SQL-based analysis can uncover critical business insights and support data-driven decision-making.
+
+## ⚠️ Limitations
+
+* The dataset is simulated (AdventureWorks)
+* Analysis is based only on historical transactions
+* No customer lifecycle or behavioral features were included (e.g. recency, frequency)
+
