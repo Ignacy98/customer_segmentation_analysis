@@ -1,11 +1,11 @@
 # Customer Segmentation Analysis (SQL Server)
 
-## 📌 Overview
+## Overview
 
 This project analyzes customer purchase behavior using the AdventureWorks2022 database.
 The goal was to identify how revenue is distributed across customers and uncover high-value segments that drive business performance.
 
-## ❓ Business Problem
+## Business Problem
 
 Companies often assume revenue is evenly distributed across customers.
 In reality, a small group of customers typically generates the majority of revenue.
@@ -16,7 +16,7 @@ This analysis answers:
 * Which customer segments drive the most value?
 * Where should the business focus retention and growth efforts?
 
-## 🧠 Approach
+## Approach
 
 * Aggregated total spending per customer using transactional data
 * Applied percentile-based segmentation using SQL window functions (`NTILE`)
@@ -28,13 +28,13 @@ This analysis answers:
   * min/max customer value
   * % contribution to total revenue
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * SQL Server (AdventureWorks2022)
 * T-SQL (CTEs, window functions, aggregations)
 * (Optional) Power BI / Excel for visualization
 
-## 📊 Key Insight
+## Key Insight
 
 The analysis revealed a highly skewed revenue distribution:
 
@@ -42,14 +42,14 @@ The analysis revealed a highly skewed revenue distribution:
 
 This exceeds the typical 80/20 Pareto distribution.
 
-## 💡 Business Implications
+## Business Implications
 
 * The business is highly dependent on a small group of customers
 * Losing top customers would have a significant revenue impact
 * Mid-tier customers represent the strongest growth opportunity
 * Low-value customers contribute marginally and should be handled cost-efficiently
 
-## 🎯 Recommendations
+## Recommendations
 
 * **Top segment (high-value customers):**
 
@@ -67,24 +67,24 @@ This exceeds the typical 80/20 Pareto distribution.
   * Limit costly engagement
   * Focus on scalable, automated communication
 
-## 📁 Project Structure
+## Project Structure
 
 * `/sql` – SQL scripts used for analysis
 * `/outputs` – query results (CSV or screenshots)
 * `/visuals` – charts (revenue distribution, segmentation)
 * `/docs` – optional explanation or notes
 
-## 📈 Example Output
+## Example Output
 
 The segmentation results show a strong concentration of revenue in the top segment.
 
 (See `/visuals` for charts)
 
-## 🚀 Key Takeaway
+## Key Takeaway
 
 This project demonstrates how simple SQL-based analysis can uncover critical business insights and support data-driven decision-making.
 
-## ⚠️ Limitations
+## Limitations
 
 * The dataset is simulated (AdventureWorks)
 * Analysis is based only on historical transactions
