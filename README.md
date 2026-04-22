@@ -72,7 +72,6 @@ This exceeds the typical 80/20 Pareto distribution.
 * `/sql` – SQL scripts used for analysis
 * `/outputs` – query results (CSV or screenshots)
 * `/visuals` – charts (revenue distribution, segmentation)
-* `/docs` – optional explanation or notes
 
 ## Example Output
 
